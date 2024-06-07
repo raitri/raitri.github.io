@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+}
+
+.main-layout {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 21pt;
+    height: 15%;
+    border-bottom: 5px double black;
+}
+
+.calls {
+    display: flex;
+    height: 85%;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.call {
+    border: 3px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+.call-id {
+    display: flex;
+    font-size: 18pt;
+    font-weight: bold;
+}
+
+.call-info {
+    display: flex;
+    flex-direction: column;
+    font-size: 14pt;
+}
+
+.call-info p {
+    margin: 5px 0;
+}
+
+.refresh-button {
+    display: flex;
+    justify-content: center;
+}
